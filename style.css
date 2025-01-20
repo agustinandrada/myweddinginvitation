@@ -189,9 +189,11 @@ a:hover{
     justify-content: space-between;
 }
 .home-img{
-    background-image: url(https://i.ibb.co/3mKyVdG/IMG-20220814-101636618-HDR.jpg);
+    
+    background-image: url(https://i.ibb.co/TLwYn3L/Whats-App-Image-2025-01-20-at-10-53-07.jpg);
     background-size: cover;
-    background-position: center;
+    background-repeat: no-repeat;
+    background-position: end;
 }
 .home-img-sm{
     display: none;

@@ -10,6 +10,20 @@
         <title>Mica & Agus</title>
         <!-- Favicon -->
         <link rel="icon" href="heart.ico" type="image/x-icon">
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                const canvas = document.createElement("canvas");
+                canvas.width = 32;
+                canvas.height = 32;
+                const ctx = canvas.getContext("2d");
+                ctx.font = "28px serif";
+                ctx.fillText("❤️", 4, 28);
+                const link = document.createElement("link");
+                link.rel = "icon";
+                link.href = canvas.toDataURL("image/png");
+                document.head.appendChild(link);
+            });
+        </script>
     </head>
     <body>
 
